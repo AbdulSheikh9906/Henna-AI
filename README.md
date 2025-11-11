@@ -25,7 +25,7 @@ It helps you create stunning and realistic henna patterns for **Eid, weddings, p
 git clone https://github.com/YOUR_USERNAME/Henna-AI.git
 cd Henna-AI
 
-2️⃣ Set Up Python Environment
+### 2️⃣ Set Up Python Environment
 
 Make sure you have Python 3.8+ installed.
 
@@ -42,10 +42,10 @@ venv\Scripts\activate
 # For macOS/Linux
 source venv/bin/activate
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-4️⃣ Add Google Gemini API Key
+### 4️⃣ Add Google Gemini API Key
 
 Create a .env file in the project root and add:
 
@@ -55,7 +55,7 @@ API_KEY=your_gemini_api_key_here
 ⚠️ Important: Do NOT upload your .env file to GitHub.
 (It’s already included in .gitignore to keep your API key private.)
 
-5️⃣ Run the App
+### 5️⃣ Run the App
 streamlit run script.py
 
 
