@@ -73,7 +73,7 @@ User Input: You choose design type, hand age, occasion, and complexity.
 
 Prompt Generation: App creates a detailed artistic description for the AI.
 
-AI Image Generation: Google Gemini generates realistic hand + mehndi images.
+AI Image Generation: Google Gemini generates realistic hand + mehndi images,
 
 Display: Streamlit beautifully shows all generated designs.
 
