@@ -1,107 +1,73 @@
-# 🌸 Henna AI — AI-Powered Mehndi Design Generator
+# 🌸 MehndiMuse
 
-**Henna AI** (also known as *MehndiMuse*) is a smart, AI-powered web app that generates personalized Mehndi (Henna) designs for your hands using **Google Gemini AI** and **Streamlit**.  
-It helps you create stunning and realistic henna patterns for **Eid, weddings, parties, or any special occasion** — all in just a few clicks! ✨
+**MehndiMuse** is a beautiful, AI-powered web app that generates custom Mehndi (Henna) designs for your hands, perfect for Eid and other special occasions! Built with Streamlit and Google Gemini, it lets you personalize every aspect of your Mehndi design and see instant, stunning results.
 
 ---
 
-## 💫 Features
-
-- 🎨 **Multiple Mehndi Styles** – Pakistani, Arabic, Indian, Bridal, Tattoo, and more.
-- 🖐️ **Hand Age Selection** – Choose from toddler to senior hands.
-- 💍 **Occasion Options** – Eid, Wedding, Festival, Party, or Casual.
-- 🧠 **AI-Powered** – Uses Google Gemini for realistic and creative image generation.
-- ⚙️ **Complexity Control** – Adjust from simple to intricate patterns.
-- ✍️ **Custom Text** – Add your name or message to the Mehndi design.
-- 🖼️ **Multiple Outputs** – Generate up to 10 designs at once.
-- 🌈 **Beautiful UI** – Modern, festive, and feminine design with inspirational quotes.
+## ✨ Features
+- **Multiple Mehndi Styles:** Pakistani, Arabic, Indian, Bridal, Tattoo, and more.
+- **Hand Age Selection:** From toddlers to seniors.
+- **Occasion Choices:** Eid (default), Wedding, Festival, Party, and more.
+- **Complexity Control:** Choose from simple to intricate designs.
+- **Custom Text:** Optionally add a name or phrase to be written on the hand.
+- **Multiple Images:** Generate up to 10 designs at once (default is 3).
+- **Festive UI:** Modern, colorful, and Eid-themed interface with quotes for girls.
+- **AI-Powered:** Uses Google Gemini for realistic, creative image generation.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repository
+### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/Henna-AI.git
-cd Henna-AI
+git clone URL HERE
+cd mehndimuse
+```
 
-### 2️⃣ Set Up Python Environment
+### 2. **Set Up Python Environment**
+- Make sure you have **Python 3.8+** installed.
+- (Recommended) Create and activate a virtual environment:
+  ```bash
+  python -m venv venv
+  # On Windows:
+  venv\Scripts\activate
+  # On macOS/Linux:
+  source venv/bin/activate
+  ```
 
-Make sure you have Python 3.8+ installed.
-
-Create a virtual environment:
-
-python -m venv venv
-
-
-Activate it:
-
-# For Windows
-venv\Scripts\activate
-
-# For macOS/Linux
-source venv/bin/activate
-
-### 3️⃣ Install Dependencies
+### 3. **Install Dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-### 4️⃣ Add Google Gemini API Key
+### 4. **Get a Google Gemini API Key**
+- Go to [Google AI Studio](https://aistudio.google.com/app/apikey) and create an API key.
+- Create a `.env` file in the project root and add:
+  ```
+  API_KEY=your_gemini_api_key_here
+  ```
 
-Create a .env file in the project root and add:
-
-API_KEY=your_gemini_api_key_here
-
-
-⚠️ Important: Do NOT upload your .env file to GitHub.
-(It’s already included in .gitignore to keep your API key private.)
-
-### 5️⃣ Run the App
+### 5. **Run the App**
+```bash
 streamlit run script.py
+```
+- The app will open in your browser. Enjoy creating Mehndi designs!
 
+---
 
-The app will automatically open in your browser. Enjoy creating your dream henna designs! 🌿
+## 🎨 Customization
+- **Colors & Theme:** Easily change the color palette in `script.py` (CSS section) to match your event or brand.
+- **Quotes:** Add or edit quotes in the `mehndi_quotes` list for more personalized messages.
+- **Default Settings:** Change default occasion, number of images, or complexity in the sidebar widget definitions.
 
-🖼️ Preview
+---
 
-You can add your project screenshot here (optional):
+## 🙏 Acknowledgements
+- [Streamlit](https://streamlit.io/)
+- [Google Gemini](https://aistudio.google.com/)
+- All the girls and women who love Mehndi and make every festival more beautiful!
 
-![Henna AI Preview](logo.jpg)
+---
 
-🧠 How It Works
-
-User Input: You choose design type, hand age, occasion, and complexity.
-
-Prompt Generation: App creates a detailed artistic description for the AI.
-
-AI Image Generation: Google Gemini generates realistic hand + mehndi images,
-
-Display: Streamlit beautifully shows all generated designs.
-
-🪷 Customization
-
-Change colors, fonts, and layout inside the CSS section in script.py.
-
-Edit the mehndi_quotes list in script.py to show your favorite quotes.
-
-Replace logo.jpg with your brand/studio logo.
-
-Modify default number of images or styles in the sidebar widgets.
-
-📁 Project Structure
-Henna-AI/
-│
-├── script.py            # Main Streamlit app
-├── requirements.txt     # Dependencies list
-├── README.md            # Project documentation
-├── .gitignore           # Ignored files
-├── logo.jpg             # App logo (shown in UI)
-└── .env (private)       # Your Gemini API key (not uploaded)
-
-🙏 Acknowledgements
-
-Streamlit
-
-Google Gemini AI
-
-All the artists who make Mehndi a beautiful tradition 💖
-
+## 🕌 Eid Mubarak!
+Celebrate with style and creativity. Let MehndiMuse color your hands and your celebrations! 
