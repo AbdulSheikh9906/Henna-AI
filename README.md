@@ -1,4 +1,4 @@
-# 🌸 MehndiMuse
+# 🌸 khu
 
 **MehndiMuse** is a beautiful, AI-powered web app that generates custom Mehndi (Henna) designs for your hands, perfect for Eid and other special occasions! Built with Streamlit and Google Gemini, it lets you personalize every aspect of your Mehndi design and see instant, stunning results.
 
@@ -71,3 +71,4 @@ streamlit run script.py
 
 ## 🕌 Eid Mubarak!
 Celebrate with style and creativity. Let MehndiMuse color your hands and your celebrations! 
+
