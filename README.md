@@ -44,7 +44,8 @@ pip install -r requirements.txt
 - Go to [Google AI Studio](https://aistudio.google.com/app/apikey) and create an API key.
 - Create a `.env` file in the project root and add:
   ```
-  API_KEY=your_gemini_api_key_here
+  API_KEY=enter tour api key
+  
   ```
 
 ### 5. **Run the App**
@@ -71,4 +72,5 @@ streamlit run script.py
 
 ## 🕌 Eid Mubarak!
 Celebrate with style and creativity. Let MehndiMuse color your hands and your celebrations! 
+
 
